@@ -20,7 +20,7 @@
                                                    DosBoxLoader.mountZip("e",
                                                                          DosBoxLoader.fetchFile("Downloading",
                                                                                                 "https://github.com/PWAStoreapp/DukeNukem3DPWA/blob/gh-pages/DUKE3D.zip?raw=true")),
-                                                   DosBoxLoader.startExe("E:setup.exe")))
+                                                   DosBoxLoader.startExe("setup.exe")))
       emulator.start({ waitAfterDownloading: false });
       function locateAdditionalFiles(filename) {
         if (filename === "dosbox.html.mem") {
