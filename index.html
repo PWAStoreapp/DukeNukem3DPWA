@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Duke Nukem 3D</title>
+    <title>js-dos api</title>
     <style type="text/css">
       .dosbox-container { width: 640px; height: 400px; }
       .dosbox-container > .dosbox-overlay { background: url(https://www.playdos.online/wp-content/uploads/2018/03/duke-nukem-3d-300x184.jpg); }
@@ -18,7 +18,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("https://github.com/PWAStoreapp/DukeNukem3DPWA/blob/gh-pages/DUKE3D.zip?raw=true", "./SETUP.EXE");
+          dosbox.run("https://www.playdos.online/dosgames/duke3d.zip", "./duke3d.exe");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
@@ -26,3 +26,4 @@
       });
     </script>
   </body>
+</html>
