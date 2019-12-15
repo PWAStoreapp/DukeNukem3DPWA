@@ -18,7 +18,7 @@
       var dosbox = new Dosbox({
         id: "dosbox",
         onload: function (dosbox) {
-          dosbox.run("https://github.com/PWAStoreapp/DukeNukem3DPWA/blob/gh-pages/DUKE3D.zip?raw=true", "DUKE3D/SETUP.EXE");
+          dosbox.run("https://github.com/PWAStoreapp/DukeNukem3DPWA/blob/gh-pages/DUKE3D.zip?raw=true", "./SETUP.EXE");
         },
         onrun: function (dosbox, app) {
           console.log("App '" + app + "' is runned");
